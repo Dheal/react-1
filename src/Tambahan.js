@@ -12,7 +12,7 @@ class Tambahan extends Component{
       }
 
       berhenti() {
-        if (this.hitung>0) {
+        if (this.state.hitung>0) {
             this.setState({ hitung: this.state.hitung - 1 }) 
         }
       } 
