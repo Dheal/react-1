@@ -1,5 +1,6 @@
 // import logo from "./logo.svg";
-// import "./App.css";
+import "./App.css";
+import "./counter.css"
 import Tambahan from './Tambahan.js'
 import React, {useState} from 'react';
 
@@ -14,15 +15,18 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App-header">
+      <div className="box">
+      <h1>Counter with Function</h1>
       <p>{hitung}</p>
-      <button onClick={()=>setHitung(hitung + 1)}>
-        +
+      <button className="btn third" onClick={()=>setHitung(hitung + 1)}>
+      <b>+</b>
       </button>
-      <button onClick={berhenti}>
-        -
+      <button className="btn third" onClick={berhenti}>
+      <b>-</b>
       </button>
       <Tambahan />
+      </div>
     </div>
   );
 }

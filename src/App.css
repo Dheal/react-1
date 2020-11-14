@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +10,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+
+  text-align: center;
+  background: url(https://airwallpaper.com/wp-content/uploads/wall001/Free-Download-Elegant-Wallpaper-HD-for-Desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
